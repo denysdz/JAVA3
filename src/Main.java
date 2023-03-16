@@ -59,8 +59,6 @@ class Submarine2 extends Vessel2 {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Підводний човен рухається");
-
         //За допомогою інтерфейсу
         Vessel1 v1 = new SailingVessel1();
         Vessel1 v2 = new Submarine1();
